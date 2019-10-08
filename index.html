@@ -1,236 +1,677 @@
-﻿
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<title>lalal</title>
+<title>杨刚-我的简历</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link rel="shortcut icon" href="images/your_ico.ico" type="image/x-icon">
+<link rel="icon" href="images/your_ico.ico" type="image/x-icon">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<!--<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
 </head>
 <body>
-<br>
-
-<script>
-document.write("Hello World!")
-</script> 
-
-<p><a href="https://www.bilibili.com/" target="iframe_a">点我跳转</a></p>
-<br><iframe src="https://www.baidu.com/" width="300" height="300" frameborder="0" name="iframe_a"></iframe>
-
-
-<br><iframe src="https://www.baidu.com/" width="50%" height="300" frameborder="0"></iframe>
-<p>iframe。显示其他网页 frameborder="0"无边框</p><br>
-
-
-<table width="500" border="0">
-<tr>
-<td colspan="2" style="background-color:#FFA500;">
-<h1>table 布局  主要的网页标题</h1>
-</td>
-</tr>
-
-<tr>
-<td style="background-color:#FFD700;width:100px;vertical-align:top;">
-<b>菜单</b><br>
-HTML<br>
-CSS<br>
-JavaScript
-</td>
-<td style="background-color:#eeeeee;height:200px;width:400px;vertical-align:top;">
-内容在这里</td>
-</tr>
-
-<tr>
-<td colspan="2" style="background-color:#FFA500;text-align:center;">
-版权 © runoob.com</td>
-</tr>
-</table>
-
-
-
-<div id="container" style="width:500px">
-<div id="header" style="background-color:#FFA500;">
-<h1 style="margin-bottom:0;">div布局 主要的网页标题</h1></div>
-
-<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
-<b>菜单</b><br>
-HTML<br>
-CSS<br>
-JavaScript</div>
-
-<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
-内容在这里</div>
-
-<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
-版权 © runoob.com</div>
-
-</div>
-
-
-<p>
-<img src="images/aaa.jpg" alt="Smiley face" style="float:left" width="32" height="32"> 一个带图片的段落，图片浮动在这个文本的左边。
-</p>
-<br/>
-<p>一个来自百度的图片</p>
-<img border="0" src="https://www.baidu.com/favicon.ico" alt="显示不了" width="304" height="228">
-<img border="0" src="images/aaa.jpg" alt="Pulpit rock" width="304" height="228">
-<img border="0" src="images/aa.jpg" alt="显示不了" width="304" height="228">
-
-<p style="font-family:arial;color:red;font-size:40px;">font-family（字体），color（颜色），和font-size（字体大小）</p>
-
-<div style="opacity:0.5;position:absolute;left:50px;width:300px;height:150px;background-color:#40B3DF"></div>
-
-<div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;"></div>
-
-<div style="opacity:0.3;position:absolute;left:120px;width:100px;height:200px;background-color:#8AC007"></div>
-
-<h3>Look! Styles and colors</h3>
-
-<div style="letter-spacing:12px;">Manipulate Text</div>
-
-<div style="color:#40B3DF;">Colors
-<span style="background-color:#B4009E;color:#000000;">Boxes</span>
-</div>
-
-<div style="color:#00ff00;">and more...</div>
-
-<br/>
-<p>
-<a href="#c4">移动到id叫c4哪里去</a>
-</p>
-<br/>
-<p>创建图片链接:
-<a href="https://www.budu.com">
-<img  border="10" src="images/aaa.jpg" alt="HTML 教程" width="32" height="32"></a></p>
-
-<p>无边框的图片链接:
-<a href="https://www.budu.com">
-<img border="0" src="images/aa.jpg" alt="找不到图片显示我" width="320" height="32"></a></p>
-
-<br/>
-<a href="https://www.baidu.com/" target="_blank">打开一个新的，访问百度!</a>
-
-<br/>
-<p>样式<del>删除</del> <ins>插入</ins>!</p>
-
-<br/>
-<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>  
-<br/>
-<abbr title="是不是可以看到更多1">鼠标放在我上面看更多1</abbr>
-<br />
-<acronym title="是不是可以看到更多2">鼠标放在我上面看更多2</acronym>
-
-<br/>
-<address>
-地址邮箱 <a href="mailto:webmaster@example.com">点我</a>.<br> 
-
-</address>
-<br/>
-<pre>
-此例演示如何使用 pre 标签
-
-对空行和    空格
-进行控制
-</pre>
-
-<br/>
-<code>电脑自动输出</code><br><br>
-
-这是 <sub> 下标</sub> 和 <sup> 上标</sup>
-
-<br/>
-
-<a id="c4" href="http://www.runoob.com">这是一个链接使用了 href 属性 连接到//www.runoob.com</a></br>
-
-<img src="images/aaa.jpg" width="258" height="258" />
-
-
-<br/>
-<del>
-<font color="#0000ff">
-<tt>qwqw好滴</tt>
-</font>
-</del>
-<br>
-lalal222<br>
-<font color="#ff0000" size="5" face="华文彩云" >你是我最美的云彩</font><br></br>
-
-	<li>我是一
-	<li>我十二
-	
-<br></br>
-水平线000
-<hr>
-水平线111
-<hr width="100%">
-水平线222
-<hr color="#00ff00" width="100%" size="10">
-水平线333
-<hr width="30%" size="10" noshade>
-水平线444
-<hr color="#00fff0" width="100" size="10" align="left">
-水平线555
-<hr color="#b0ffb1" width="100" size="10" align="center">
-水平线666
-<hr color="#23ff00" width="100" size="10" align="right">
-<br></br>
-
-ssssssssssssssss
-<p>wwwwwwwwwwwwww</p>
-<p>aaaaaaaaaaaaaa</p>
-
-<table  width="400" border="1" align="center">
-	<caption align="center" size="15">表格标题</caption>
-	<tr>
-		<td width="100" align="center">xm</td>
-		<td width="100" align="center">xb</td>
-		<td width="100" align="center">xh</td>
-		<td width="100" align="center">nl</td>
-	</tr>
-	<tr>
-		<td width="100" align="center">1</td>
-		<td width="100" align="center">2</td>
-		<td width="100" align="center">3</td>
-		<td width="100" align="center">4</td>
-	</tr>
-	<tr>
-		<td width="100" align="center">1</td>
-		<td width="100" align="center">2</td>
-		<td width="100" align="center">3</td>
-		<td width="100" align="center">4</td>
-	</tr>
-	<tr>
-		<td width="100" align="center">1</td>
-		<td width="100" align="center">2</td>
-		<td width="100" align="center">3</td>
-		<td width="100" align="center">4</td>
-	</tr>
-</table>
-<br></br>
-
-<form id="form1" name="form2" methom="post" action="">
-
-	xxxxxxxxxxx:<input type="text" name="textname" id="textname" />
-	mmmmmmmmmmm:<input type="possword" name="possword" id="possword" />
-	<br></br>
-	<input type="radio" name="radio" id="radio1" />1111111
-	<input type="radio" name="radio" id="radio2" />22222222
-	<input type="radio" name="radio" id="radio3" />33333333
-	<br></br>
-	
-
-
-</form>
-<form id="form11" name="form22" methom="post" action="">
-	<textarea name="r1" cols="56" rows="10"></textarea>
-	<br>
-	<input type="submit" name="tj" id="tj" value="tj"/>
-	<input type="reset" name="tj2" id="tj2" value="cz"/>
-</form>
-
-
-
-
-
-
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/img1.jpg" alt=""/>
+				</div>
+				<div class="col-md-8 header-right">
+					<h2>你好</h2>
+					<h1>我的名字是杨刚</h1>
+					<h6>是一个程序员，学生</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>出生日期</b></li>
+								<li>1996-07-05</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>联系电话 </b></li>
+								<li>15281138771</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>居住地址 </b></li>
+								<li>成都职业技术学院（高新校区）</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>个人邮箱 </b></li>
+								<li> 1395626695@qq.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>兴趣爱好 </b></li>
+								<li> 喜欢安静，看小说，看动漫</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					导航
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">关于我</a></li>
+						<li><a href="#work" class="scroll">个人经历</a></li>
+						<li><a href="#education" class="scroll">教育背景</a></li>
+						<li><a href="#skills" class="scroll">专业技能</a></li>
+						<li><a href="#projects" class="scroll">部分作品</a></li>
+						<li><a href="#contact" class="scroll">联系我</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 关于我</h3>
+			<div class="col-md-8 about-left">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具有较强分析能力，对周围的环境比较敏感，善于发现不同的事物</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟悉各种编程的基础知识，会使用C语言，java语言，Android，mysql。对硬件编程也有一定了解，曾经使用过51单片机，stm32单片机，arduino（mackblock，nano，esp8266）。动手能力强，工作积极性高，为人热情，乐于助人，沟通能力较强，拥有创新思维、有团队精神并能承受较大的工作压力。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在学校参加个学生会，并且在大二成为组织部部长。同时自己成立过一个社团，举办过多次大型活动。自己性格低调，比较细心，责任感强，有进取心，诚实可靠。有很强的团队合作意识和一定的领导能力，具有良好的动手能力,思维敏锐，学习能力、表达能力出众。</p>
+			</div>
+			<div class="col-md-4 about-right">
+				<ul>
+					<h5>荣誉证书</h5>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2018.5 获得优秀干事</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2018.5 获得优秀志愿者</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2018.9 获得三好学生</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2018.10 获得四川省大学生机器人大赛二等奖</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2019.3 获得青少儿科技挑战赛优秀志愿者</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 2019.3 获得四川省大学生嵌入式技术应用开发大赛二等奖</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> ..................................... </li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">个人经历</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2017 </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 成都职业技术学院（高新校区）</h5>
+					<p>进入大学，并且参加学生会，取得优秀干事 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2018 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> 竞选 比赛 <span class="glyphicon glyphicon-briefcase"> </span></h5>
+					<p>在大二时期竞选为学生会组织部部长，成立一个社团。共参加个两个大型比赛 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2019 </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 嗯。。。。。。</h5>
+					<p> 嗯。。。。。。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		<!--
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2014 - 2015 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> 河南工业大学就读参加结业考试 <span class="glyphicon glyphicon-briefcase"></span> </h5>
+					<p>2014年先后取得河南工业大学专科学历证书和郑州大学自考本科学历！ </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		-->	
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">教育背景</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2017</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> 成都职业技术学院（高新校区）</h5>
+					<p>成都职业技术学院（高新校区） </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!--
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>Diploma in Design - 2010</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> University Name <span class="glyphicon glyphicon-education"></span></h5>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Web Design - 2008</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> University Name</h5>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			-->
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">专业技能</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>WEB DESIGN  <span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>UI DESIGN & DEVELOPER <span> 70% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 70%">
+						</div>
+					</div>
+					<h6>HTML/CSS<span>90% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+						</div>
+					</div>
+					<h6>PHOTOSHOP <span> 75% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 75%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>Adobe Illustrator <span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+					<h6>SOCIAL MEDIA MARKETING<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+					<h6>UX DEVELOPER<span>80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>CINEMA 4D<span> 60% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 60%">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">部分作品</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>
+						<li class="resp-tab-item"><span>Html</span></li>
+						<li class="resp-tab-item"><span> Photoshop</span></li>
+						<li class="resp-tab-item"><span>Cinema 4D</span></li>
+						<li class="resp-tab-item"><span>LOGO/VI</span></li>
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>苹果酒广告，莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid effect-sarah">
+										<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g3.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g11.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g11.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g7.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g8.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g8.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g10.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g10.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g12.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g12.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								
+								
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g7.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g3.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g8.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g8.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g10.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g10.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g11.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g11.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g12.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g12.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>莎拉喜欢看云。她很沮丧。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+	<!--contact -->
+	<div class="welcome contact" id="contact">
+		<div class="container">
+			<h3 class="title">联系我们</h3>
+			<div class="contact-row">
+				<div class="col-md-6 contact-left">
+					<iframe src="http://map.baidu.com/#panoid=09002200011706171137054909Z&panotype=street&heading=0&pitch=0&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011706171137054909Z"></iframe>
+				</div>
+				<div class="col-md-6 contact-right">
+					<div class="address-left">
+						<p>北京朝阳区赵九路风景线,中国 </p>
+					</div>
+					<div class="address-right">
+						<p>电话 : 1500008888</p>
+						<p>E-mail : <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=OwoLDg0MAwgIDgJ7SkoVWFRW" target="_blank">fm185@sina.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+					<div class="contact-form">
+						<form action="#" method="post">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input class="email" name="Email" type="text" placeholder="Email" required="">
+							<input class="phone" name="phone" type="text" placeholder="Phone" required="">
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+							<input type="submit" value="提交" >
+						</form>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//contact -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>©2018我的简历。所有权利保留|设计的 更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
